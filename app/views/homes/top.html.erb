@@ -1,11 +1,16 @@
-<h1>Start Page</h1>
-<div class="book-wrap">
-  <% @books.each do |book| %>
-    <div class="book-box">
-      <div class="book-comment">
-        <span class="book-body"><%= book.body %></span>
-        <span class="book-title"><%= link_to book.title, book_path(book.id) %></span>
-      </div>
-    </div>
-  <% end %>
-</div>
+
+
+<body>
+  <h1>"ようこそ"　
+    <strong>Bookers</strong>
+     "へ！"
+  </h1>
+　  <p>
+　    <srtong>Bookers</srtong> "では、さまざまな書籍に関するあなたの意見や"
+　  </p>
+　     <p>印象を共有し交換することができます</p>
+
+<p>
+<a href="/books">start</a>
+</p>
+</body>
